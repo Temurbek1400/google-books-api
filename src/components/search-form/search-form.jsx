@@ -15,7 +15,7 @@ const SearchForm = ({ searchBook, isFetching }) => {
       <form onSubmit={(e) => afterSubmission(e)} name="searchForm" id="searchForm" className="form_container">
          <TextField
             required
-            onChange={(e) => setInputText(e.target.value)}
+            onChange={(e) =>   setInputText(e.target.value)}
             value={inputText}
             id="outlined-basic"
             label="volume"
