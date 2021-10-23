@@ -4,7 +4,6 @@ import Book from "./book";
 import MiniPreloader from './../MiniPreloader/MiniPreloader';
 
 const Books = (props) => {
-   debugger;
    return (
       <Container>
          <Grid container spacing={5}>

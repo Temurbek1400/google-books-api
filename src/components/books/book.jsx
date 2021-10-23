@@ -22,7 +22,6 @@ const Book = (props) => {
             </Typography> */}
          </CardContent>
          <CardActions>
-            <Button size="small">View</Button>
             <Button size="small"><a rel="noreferrer" target="_blank" href={props.volumeInfo.previewLink}>Learn More</a></Button>
          </CardActions>
       </Card>
